@@ -67,7 +67,7 @@ fun NotificationManager.sendNotification(messageBody: String, applicationContext
         snoozeIntent,
         FLAGS)
 
-    // TODO: Step 1.2 get an instance of NotificationCompat.Builder
+    //Step 1.2 get an instance of NotificationCompat.Builder
     // Build the notification
     val builder = NotificationCompat.Builder(
         applicationContext,
@@ -76,7 +76,7 @@ fun NotificationManager.sendNotification(messageBody: String, applicationContext
 
     // TODO: Step 1.8 use the new 'breakfast' notification channel
 
-    // TODO: Step 1.3 set title, text and icon to builder
+    //Step 1.3 set title, text and icon to builder
         .setSmallIcon(R.drawable.cooked_egg)
         .setContentTitle(applicationContext
             .getString(R.string.notification_title))
@@ -99,7 +99,7 @@ fun NotificationManager.sendNotification(messageBody: String, applicationContext
 
         // TODO: Step 2.5 set priority
         .setPriority(NotificationCompat.PRIORITY_HIGH)
-    // TODO: Step 1.4 call notify
+    //Step 1.4 call notify
     notify(NOTIFICATION_ID, builder.build())
 }
 
