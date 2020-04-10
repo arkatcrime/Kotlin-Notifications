@@ -119,6 +119,14 @@ class EggTimerViewModel(private val app: Application) : AndroidViewModel(app) {
                 }
                 val triggerTime = SystemClock.elapsedRealtime() + selectedInterval
 
+                //Step 1.15 call cancel notification
+                val notificationManager =
+                        ContextCompat.getSystemService(
+                                app,
+                                NotificationManager::class.java
+                        ) as NotificationManager
+                notificationManager.cancelNotifications()
+
                 AlarmManagerCompat.setExactAndAllowWhileIdle(
                     alarmManager,
                     AlarmManager.ELAPSED_REALTIME_WAKEUP,
