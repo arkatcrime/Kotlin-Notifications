@@ -50,7 +50,7 @@ fun NotificationManager.sendNotification(messageBody: String, applicationContext
         PendingIntent.FLAG_UPDATE_CURRENT
     )
 
-    // TODO: Step 2.0 add style
+    //Step 2.0 add style
     val eggImage = BitmapFactory.decodeResource(
         applicationContext.resources,
         R.drawable.cooked_egg
@@ -86,7 +86,7 @@ fun NotificationManager.sendNotification(messageBody: String, applicationContext
         .setContentIntent(contentPendingIntent)
         .setAutoCancel(true)
 
-        // TODO: Step 2.1 add style to builder
+        //Step 2.1 add style to builder
         .setStyle(bigPicStyle)
         .setLargeIcon(eggImage)
 
