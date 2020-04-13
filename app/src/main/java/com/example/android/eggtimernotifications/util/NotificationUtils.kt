@@ -97,7 +97,7 @@ fun NotificationManager.sendNotification(messageBody: String, applicationContext
             snoozePendingIntent
         )
 
-        // TODO: Step 2.5 set priority
+        //Step 2.5 set priority
         .setPriority(NotificationCompat.PRIORITY_HIGH)
     //Step 1.4 call notify
     notify(NOTIFICATION_ID, builder.build())
