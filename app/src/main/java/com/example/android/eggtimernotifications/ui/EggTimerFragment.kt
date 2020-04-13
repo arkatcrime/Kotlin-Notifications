@@ -69,7 +69,7 @@ class EggTimerFragment : Fragment() {
                 NotificationManager.IMPORTANCE_HIGH
             )//Step 2.6 disable badges for this channel
              .apply { setShowBadge(false) }
-            
+
             notificationChannel.enableLights(true)
             notificationChannel.lightColor = Color.RED
             notificationChannel.enableVibration(true)
