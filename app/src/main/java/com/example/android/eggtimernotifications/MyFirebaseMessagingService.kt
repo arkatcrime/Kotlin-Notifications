@@ -10,7 +10,11 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
 
     override fun onMessageReceived(remoteMessage: RemoteMessage?) {
         Log.d(TAG, "From: ${remoteMessage?.from}" )
-       // super.onMessageReceived(p0)
+
+        // Check if message contains a data payload.
+        remoteMessage?.data?.let {
+            Log.d(TAG, "Message data payload: " + remoteMessage.data)
+        }
     }
 
     private fun sendRegistrationToServer(token: String?){
