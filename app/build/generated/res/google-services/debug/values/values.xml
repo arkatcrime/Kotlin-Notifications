@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">1023130592228-oqngu79c7b9f1aohsagbjg5mdvucc8a5.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://fcm-notifications-a986b.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1023130592228</string>
+    <string name="google_api_key" translatable="false">AIzaSyBsV1uA7MrUwYuFAMzPjOGcfLHoMjDPkio</string>
+    <string name="google_app_id" translatable="false">1:1023130592228:android:9e31cd3db23953094c1df1</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBsV1uA7MrUwYuFAMzPjOGcfLHoMjDPkio</string>
+    <string name="google_storage_bucket" translatable="false">fcm-notifications-a986b.appspot.com</string>
+    <string name="project_id" translatable="false">fcm-notifications-a986b</string>
+</resources>

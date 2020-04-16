@@ -1,0 +1,691 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml:18:1-79:12
+INJECTED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml:18:1-79:12
+INJECTED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml:18:1-79:12
+INJECTED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml:18:1-79:12
+MERGED from [androidx.databinding:databinding-adapters:3.4.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/b42c04bd7d2cf6fd0a197278aed89120/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:databinding-runtime:3.4.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/5730a55e6a648ce50d4aa871f4810371/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/978bf36d1fe16682c23a00b64a64bef0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.0.2] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/24849f43ec66b3c38dcbe5ffcf59e4f1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/04fbbec8c7756b8875808a9488353772/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/73755791873187c12a848db1cddb0331/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:17:1-123:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0-rc01] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/3bb364c0a9dd73a8d063e3e1e53b7add/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0-rc01] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/72c9e9a3a460693f3d87e5eba54bc7bb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-core:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/e5b4d36fb38dc6ea12633d0a2130043b/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-messaging:19.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9fcc4fd8ff356cc95004ce55904e5dc4/AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-analytics:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/4f241a3a60f2ebae416b97c195509ad3/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/03b8d4b8268d62723f576784077750ca/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-iid:19.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9bb97cb91efd811d51ce1c22a6e4311c/AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/a7f5b0637c86607a569b124d6d9504c0/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/bed559a10530a856be6e9ebd8c82f71d/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/72358e955227ef467f1ec0f306215cdf/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/1f8c4f10669575a95a16d15d098cb1bf/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/704b6ba6d295ce3bcc3a1e4a543d6b43/AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/1b1da6e0729c8e99129cf7203850511f/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/b514b2546679673df00ceba193864384/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/79c84e3aab70b77ec8ab8ca607151148/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/0b694134d84e15d552784de173ad90ae/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/b1bcec94cd848adb6c4f804655d466d8/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/fe0becd621851143df4be13131cd6bee/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/f0809bf1a0c4e05769685d59772dd363/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/267a854a3ffe28d36bc39738a05dcf9a/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/a6842912347bb6e0f9ca302490896b94/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/57e3fd14fe72bbf3bd812288c64a0628/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/23627f52eed88f4bec4d5f3774cf3db1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.room:room-runtime:2.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/ffc883d92172a7ae3bb53fad29c09e50/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/57806693f5a4b66eac90181ca0137d9d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/3bc5ebea0e14ca62be4d1abaa5743b55/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/22ac5a58ed147f8d8d077c93eec56ab0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/a49d13bc1ba1b1f5eebd83861ee7c90a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/538e94bfae644401bbe20668195372da/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/a80b8362fabbb20a02382f3349e08061/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/1295715c9e35c1d0d4b10f2bc58985d0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/5e01dfbbfc2a77591ff2f6d6da0bccb7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/b1c9d0902069cbdc0146258bbe568733/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/5d706f1884573b168ed1d7c022a6a753/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/081bcc0e83d60383911e0ca87fedc511/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.2] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/31ae30d040c390bc12a4044157b1b22e/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0-rc01] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/5e40911926f4af2a3b5269e58c044bfa/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0-rc01] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9b67ba4e04159bec3e89c9482e129f07/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-rc01] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/cc79e3b2dc2adb3cb48457934890a2c9/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/acd268c69e99dfe1323d3efd6f2c543b/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/557fe99941ecc7367eb02436cf3ce39b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0-rc01] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/f097595ded722311eb54ac8261fd2cd0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0-rc01] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/7b81b87a346b75092a1212d6b4e82c8f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0-rc01] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/81c18cfa1871502452bbf0b62814902e/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-rc01] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/632d92a3a418afd5c3347948d32cdc84/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/d583148d80281a6719764d4fdd36dbb4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/b01074de115be7e7e7fa6869916a8c82/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/dca36e444a915288b8a8e8f3586b6167/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/b2f8a983bbac6d8c377b901737ad3448/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/c630a35d9fddccd9034ac91c137fba23/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/4e93a09abc2d16877759d72a2e570a89/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml:18:1-79:12
+INJECTED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml:18:1-79:12
+INJECTED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml:18:1-79:12
+	package
+		ADDED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml:19:11-62
+		INJECTED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml
+		ADDED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml:18:1-79:12
+		INJECTED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml
+		ADDED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml:18:1-79:12
+		INJECTED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml:18:11-69
+application
+ADDED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml:21:5-77:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/04fbbec8c7756b8875808a9488353772/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/04fbbec8c7756b8875808a9488353772/AndroidManifest.xml:9:5-20
+MERGED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:27:5-121:19
+MERGED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:27:5-121:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0-rc01] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/3bb364c0a9dd73a8d063e3e1e53b7add/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0-rc01] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/3bb364c0a9dd73a8d063e3e1e53b7add/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-core:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/e5b4d36fb38dc6ea12633d0a2130043b/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/e5b4d36fb38dc6ea12633d0a2130043b/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-messaging:19.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9fcc4fd8ff356cc95004ce55904e5dc4/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:19.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9fcc4fd8ff356cc95004ce55904e5dc4/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-analytics:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/4f241a3a60f2ebae416b97c195509ad3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/4f241a3a60f2ebae416b97c195509ad3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/03b8d4b8268d62723f576784077750ca/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/03b8d4b8268d62723f576784077750ca/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-iid:19.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9bb97cb91efd811d51ce1c22a6e4311c/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:19.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9bb97cb91efd811d51ce1c22a6e4311c/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/a7f5b0637c86607a569b124d6d9504c0/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/a7f5b0637c86607a569b124d6d9504c0/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/bed559a10530a856be6e9ebd8c82f71d/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/bed559a10530a856be6e9ebd8c82f71d/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/72358e955227ef467f1ec0f306215cdf/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/72358e955227ef467f1ec0f306215cdf/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/1f8c4f10669575a95a16d15d098cb1bf/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/1f8c4f10669575a95a16d15d098cb1bf/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/704b6ba6d295ce3bcc3a1e4a543d6b43/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/704b6ba6d295ce3bcc3a1e4a543d6b43/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/1b1da6e0729c8e99129cf7203850511f/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/1b1da6e0729c8e99129cf7203850511f/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/b514b2546679673df00ceba193864384/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/b514b2546679673df00ceba193864384/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/79c84e3aab70b77ec8ab8ca607151148/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/79c84e3aab70b77ec8ab8ca607151148/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/0b694134d84e15d552784de173ad90ae/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/0b694134d84e15d552784de173ad90ae/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/b1bcec94cd848adb6c4f804655d466d8/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/b1bcec94cd848adb6c4f804655d466d8/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/fe0becd621851143df4be13131cd6bee/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/fe0becd621851143df4be13131cd6bee/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/f0809bf1a0c4e05769685d59772dd363/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/f0809bf1a0c4e05769685d59772dd363/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/267a854a3ffe28d36bc39738a05dcf9a/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/267a854a3ffe28d36bc39738a05dcf9a/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.0.2] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/31ae30d040c390bc12a4044157b1b22e/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.2] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/31ae30d040c390bc12a4044157b1b22e/AndroidManifest.xml:22:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0-rc01] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/5e40911926f4af2a3b5269e58c044bfa/AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0-rc01] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/5e40911926f4af2a3b5269e58c044bfa/AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/acd268c69e99dfe1323d3efd6f2c543b/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/acd268c69e99dfe1323d3efd6f2c543b/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.2] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/31ae30d040c390bc12a4044157b1b22e/AndroidManifest.xml:22:18-86
+	android:supportsRtl
+		ADDED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml:26:9-35
+	android:label
+		ADDED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml:24:9-41
+	android:roundIcon
+		ADDED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml:25:9-55
+	android:icon
+		ADDED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml:23:9-42
+	android:allowBackup
+		ADDED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml:22:9-35
+	android:theme
+		ADDED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml:27:9-40
+activity#com.example.android.eggtimernotifications.MainActivity
+ADDED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml:29:9-35:20
+	android:name
+		ADDED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml:29:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml:30:13-34:29
+action#android.intent.action.MAIN
+ADDED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml:31:17-68
+	android:name
+		ADDED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml:31:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml:33:17-76
+	android:name
+		ADDED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml:33:27-74
+receiver#com.example.android.eggtimernotifications.receiver.AlarmReceiver
+ADDED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml:37:9-41:20
+	android:enabled
+		ADDED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml:39:17-39
+	android:exported
+		ADDED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml:40:17-41
+	android:name
+		ADDED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml:38:17-55
+receiver#com.example.android.eggtimernotifications.receiver.SnoozeReceiver
+ADDED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml:42:9-46:20
+	android:enabled
+		ADDED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml:44:17-39
+	android:exported
+		ADDED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml:45:17-41
+	android:name
+		ADDED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml:43:17-56
+service#com.example.android.eggtimernotifications.MyFirebaseMessagingService
+ADDED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml:52:13-37
+	android:name
+		ADDED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml:51:13-55
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml:53:13-55:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml:54:17-77
+	android:name
+		ADDED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml:54:25-75
+meta-data#com.google.firebase.messaging.default_notification_icon
+ADDED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml:61:9-63:78
+	android:resource
+		ADDED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml:63:13-76
+	android:name
+		ADDED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml:62:13-83
+meta-data#com.google.firebase.messaging.default_notification_color
+ADDED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml:68:9-70:52
+	android:resource
+		ADDED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml:70:13-50
+	android:name
+		ADDED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml:69:13-84
+meta-data#com.google.firebase.messaging.default_notification_channel_id
+ADDED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml:72:9-74:73
+	android:value
+		ADDED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml:74:13-70
+	android:name
+		ADDED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml:73:13-89
+uses-sdk
+INJECTED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml
+INJECTED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:databinding-adapters:3.4.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/b42c04bd7d2cf6fd0a197278aed89120/AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-adapters:3.4.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/b42c04bd7d2cf6fd0a197278aed89120/AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:3.4.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/5730a55e6a648ce50d4aa871f4810371/AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:3.4.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/5730a55e6a648ce50d4aa871f4810371/AndroidManifest.xml:22:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/978bf36d1fe16682c23a00b64a64bef0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/978bf36d1fe16682c23a00b64a64bef0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.0.2] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/24849f43ec66b3c38dcbe5ffcf59e4f1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.0.2] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/24849f43ec66b3c38dcbe5ffcf59e4f1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/04fbbec8c7756b8875808a9488353772/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/04fbbec8c7756b8875808a9488353772/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/73755791873187c12a848db1cddb0331/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/73755791873187c12a848db1cddb0331/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:21:5-44
+MERGED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0-rc01] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/3bb364c0a9dd73a8d063e3e1e53b7add/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0-rc01] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/3bb364c0a9dd73a8d063e3e1e53b7add/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0-rc01] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/72c9e9a3a460693f3d87e5eba54bc7bb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0-rc01] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/72c9e9a3a460693f3d87e5eba54bc7bb/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-core:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/e5b4d36fb38dc6ea12633d0a2130043b/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/e5b4d36fb38dc6ea12633d0a2130043b/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-messaging:19.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9fcc4fd8ff356cc95004ce55904e5dc4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:19.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9fcc4fd8ff356cc95004ce55904e5dc4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/4f241a3a60f2ebae416b97c195509ad3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/4f241a3a60f2ebae416b97c195509ad3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/03b8d4b8268d62723f576784077750ca/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/03b8d4b8268d62723f576784077750ca/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:19.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9bb97cb91efd811d51ce1c22a6e4311c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:19.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9bb97cb91efd811d51ce1c22a6e4311c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/a7f5b0637c86607a569b124d6d9504c0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/a7f5b0637c86607a569b124d6d9504c0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/bed559a10530a856be6e9ebd8c82f71d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/bed559a10530a856be6e9ebd8c82f71d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/72358e955227ef467f1ec0f306215cdf/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/72358e955227ef467f1ec0f306215cdf/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/1f8c4f10669575a95a16d15d098cb1bf/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/1f8c4f10669575a95a16d15d098cb1bf/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/704b6ba6d295ce3bcc3a1e4a543d6b43/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/704b6ba6d295ce3bcc3a1e4a543d6b43/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/1b1da6e0729c8e99129cf7203850511f/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/1b1da6e0729c8e99129cf7203850511f/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/b514b2546679673df00ceba193864384/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/b514b2546679673df00ceba193864384/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/79c84e3aab70b77ec8ab8ca607151148/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/79c84e3aab70b77ec8ab8ca607151148/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/0b694134d84e15d552784de173ad90ae/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/0b694134d84e15d552784de173ad90ae/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/b1bcec94cd848adb6c4f804655d466d8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/b1bcec94cd848adb6c4f804655d466d8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/fe0becd621851143df4be13131cd6bee/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/fe0becd621851143df4be13131cd6bee/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/f0809bf1a0c4e05769685d59772dd363/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/f0809bf1a0c4e05769685d59772dd363/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/267a854a3ffe28d36bc39738a05dcf9a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/267a854a3ffe28d36bc39738a05dcf9a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/a6842912347bb6e0f9ca302490896b94/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/a6842912347bb6e0f9ca302490896b94/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/57e3fd14fe72bbf3bd812288c64a0628/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/57e3fd14fe72bbf3bd812288c64a0628/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/23627f52eed88f4bec4d5f3774cf3db1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/23627f52eed88f4bec4d5f3774cf3db1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/ffc883d92172a7ae3bb53fad29c09e50/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/ffc883d92172a7ae3bb53fad29c09e50/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/57806693f5a4b66eac90181ca0137d9d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/57806693f5a4b66eac90181ca0137d9d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/3bc5ebea0e14ca62be4d1abaa5743b55/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/3bc5ebea0e14ca62be4d1abaa5743b55/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/22ac5a58ed147f8d8d077c93eec56ab0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/22ac5a58ed147f8d8d077c93eec56ab0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/a49d13bc1ba1b1f5eebd83861ee7c90a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/a49d13bc1ba1b1f5eebd83861ee7c90a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/538e94bfae644401bbe20668195372da/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/538e94bfae644401bbe20668195372da/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/a80b8362fabbb20a02382f3349e08061/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/a80b8362fabbb20a02382f3349e08061/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/1295715c9e35c1d0d4b10f2bc58985d0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/1295715c9e35c1d0d4b10f2bc58985d0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/5e01dfbbfc2a77591ff2f6d6da0bccb7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/5e01dfbbfc2a77591ff2f6d6da0bccb7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/b1c9d0902069cbdc0146258bbe568733/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/b1c9d0902069cbdc0146258bbe568733/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/5d706f1884573b168ed1d7c022a6a753/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/5d706f1884573b168ed1d7c022a6a753/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/081bcc0e83d60383911e0ca87fedc511/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/081bcc0e83d60383911e0ca87fedc511/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.2] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/31ae30d040c390bc12a4044157b1b22e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.2] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/31ae30d040c390bc12a4044157b1b22e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0-rc01] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/5e40911926f4af2a3b5269e58c044bfa/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0-rc01] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/5e40911926f4af2a3b5269e58c044bfa/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0-rc01] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9b67ba4e04159bec3e89c9482e129f07/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0-rc01] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9b67ba4e04159bec3e89c9482e129f07/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-rc01] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/cc79e3b2dc2adb3cb48457934890a2c9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-rc01] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/cc79e3b2dc2adb3cb48457934890a2c9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/acd268c69e99dfe1323d3efd6f2c543b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/acd268c69e99dfe1323d3efd6f2c543b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/557fe99941ecc7367eb02436cf3ce39b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/557fe99941ecc7367eb02436cf3ce39b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0-rc01] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/f097595ded722311eb54ac8261fd2cd0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0-rc01] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/f097595ded722311eb54ac8261fd2cd0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0-rc01] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/7b81b87a346b75092a1212d6b4e82c8f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0-rc01] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/7b81b87a346b75092a1212d6b4e82c8f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.1.0-rc01] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/81c18cfa1871502452bbf0b62814902e/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0-rc01] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/81c18cfa1871502452bbf0b62814902e/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-rc01] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/632d92a3a418afd5c3347948d32cdc84/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-rc01] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/632d92a3a418afd5c3347948d32cdc84/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/d583148d80281a6719764d4fdd36dbb4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/d583148d80281a6719764d4fdd36dbb4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/b01074de115be7e7e7fa6869916a8c82/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/b01074de115be7e7e7fa6869916a8c82/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/dca36e444a915288b8a8e8f3586b6167/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/dca36e444a915288b8a8e8f3586b6167/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/b2f8a983bbac6d8c377b901737ad3448/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/b2f8a983bbac6d8c377b901737ad3448/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/c630a35d9fddccd9034ac91c137fba23/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/c630a35d9fddccd9034ac91c137fba23/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/4e93a09abc2d16877759d72a2e570a89/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/4e93a09abc2d16877759d72a2e570a89/AndroidManifest.xml:20:5-44
+INJECTED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml
+INJECTED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml
+		ADDED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml
+		ADDED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/joaooliveira/Documents/udacity/Kotlin-Notifications/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:23:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/03b8d4b8268d62723f576784077750ca/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/03b8d4b8268d62723f576784077750ca/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:19.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9bb97cb91efd811d51ce1c22a6e4311c/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:19.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9bb97cb91efd811d51ce1c22a6e4311c/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/a7f5b0637c86607a569b124d6d9504c0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/a7f5b0637c86607a569b124d6d9504c0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/72358e955227ef467f1ec0f306215cdf/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/72358e955227ef467f1ec0f306215cdf/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/b1bcec94cd848adb6c4f804655d466d8/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/b1bcec94cd848adb6c4f804655d466d8/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:23:22-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/03b8d4b8268d62723f576784077750ca/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/03b8d4b8268d62723f576784077750ca/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-iid:19.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9bb97cb91efd811d51ce1c22a6e4311c/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:19.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9bb97cb91efd811d51ce1c22a6e4311c/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/a7f5b0637c86607a569b124d6d9504c0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/a7f5b0637c86607a569b124d6d9504c0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/72358e955227ef467f1ec0f306215cdf/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/72358e955227ef467f1ec0f306215cdf/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/b1bcec94cd848adb6c4f804655d466d8/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/b1bcec94cd848adb6c4f804655d466d8/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:24:22-76
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:25:5-81
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:25:22-78
+provider#androidx.work.impl.WorkManagerInitializer
+ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:28:9-34:35
+	android:authorities
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:30:13-68
+	android:multiprocess
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:33:13-40
+	android:exported
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:32:13-37
+	tools:targetApi
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:34:13-32
+	android:directBootAware
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:31:13-44
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:29:13-69
+service#androidx.work.impl.background.systemalarm.SystemAlarmService
+ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:36:9-41:35
+	android:enabled
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:39:13-72
+	android:exported
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:40:13-37
+	tools:targetApi
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:41:13-32
+	android:directBootAware
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:38:13-44
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:37:13-88
+service#androidx.work.impl.background.systemjob.SystemJobService
+ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:42:9-48:35
+	android:enabled
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:45:13-70
+	android:exported
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:46:13-36
+	android:permission
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:47:13-69
+	tools:targetApi
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:48:13-32
+	android:directBootAware
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:44:13-44
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:43:13-84
+receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:50:9-55:35
+	android:enabled
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:53:13-35
+	android:exported
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:54:13-37
+	tools:targetApi
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:55:13-32
+	android:directBootAware
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:52:13-44
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:51:13-88
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:56:9-66:20
+	android:enabled
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:59:13-36
+	android:exported
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:60:13-37
+	tools:targetApi
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:61:13-32
+	android:directBootAware
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:58:13-44
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:57:13-106
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:62:13-65:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:63:17-87
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:63:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:64:17-90
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:64:25-87
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:67:9-77:20
+	android:enabled
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:70:13-36
+	android:exported
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:71:13-37
+	tools:targetApi
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:72:13-32
+	android:directBootAware
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:69:13-44
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:68:13-104
+intent-filter#action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
+ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:73:13-76:29
+action#android.intent.action.BATTERY_OKAY
+ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:74:17-77
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:74:25-74
+action#android.intent.action.BATTERY_LOW
+ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:75:17-76
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:75:25-73
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:78:9-88:20
+	android:enabled
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:81:13-36
+	android:exported
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:82:13-37
+	tools:targetApi
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:83:13-32
+	android:directBootAware
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:80:13-44
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:79:13-104
+intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW+action:name:android.intent.action.DEVICE_STORAGE_OK
+ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:84:13-87:29
+action#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:85:17-83
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:85:25-80
+action#android.intent.action.DEVICE_STORAGE_OK
+ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:86:17-82
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:86:25-79
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:89:9-98:20
+	android:enabled
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:92:13-36
+	android:exported
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:93:13-37
+	tools:targetApi
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:94:13-32
+	android:directBootAware
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:91:13-44
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:90:13-103
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:95:13-97:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:96:17-79
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:96:25-76
+receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
+ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:99:9-110:20
+	android:enabled
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:102:13-36
+	android:exported
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:103:13-37
+	tools:targetApi
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:104:13-32
+	android:directBootAware
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:101:13-44
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:100:13-88
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:105:13-109:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:106:17-79
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:106:25-76
+action#android.intent.action.TIME_SET
+ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:107:17-73
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:107:25-70
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:108:17-81
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:108:25-78
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:111:9-120:20
+	android:enabled
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:114:13-72
+	android:exported
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:115:13-37
+	tools:targetApi
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:116:13-32
+	android:directBootAware
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:113:13-44
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:112:13-99
+intent-filter#action:name:androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:117:13-119:29
+action#androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:118:17-98
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9022b54174b4341594165feb62f0cfa6/AndroidManifest.xml:118:25-95
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:19.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9fcc4fd8ff356cc95004ce55904e5dc4/AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:19.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9fcc4fd8ff356cc95004ce55904e5dc4/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:19.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9fcc4fd8ff356cc95004ce55904e5dc4/AndroidManifest.xml:29:13-82
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/03b8d4b8268d62723f576784077750ca/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:19.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9bb97cb91efd811d51ce1c22a6e4311c/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:19.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9bb97cb91efd811d51ce1c22a6e4311c/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/a7f5b0637c86607a569b124d6d9504c0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/a7f5b0637c86607a569b124d6d9504c0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/72358e955227ef467f1ec0f306215cdf/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/72358e955227ef467f1ec0f306215cdf/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/b1bcec94cd848adb6c4f804655d466d8/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/b1bcec94cd848adb6c4f804655d466d8/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/03b8d4b8268d62723f576784077750ca/AndroidManifest.xml:22:22-64
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/03b8d4b8268d62723f576784077750ca/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-iid:19.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9bb97cb91efd811d51ce1c22a6e4311c/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:19.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9bb97cb91efd811d51ce1c22a6e4311c/AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/03b8d4b8268d62723f576784077750ca/AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/03b8d4b8268d62723f576784077750ca/AndroidManifest.xml:28:13-84
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/03b8d4b8268d62723f576784077750ca/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/03b8d4b8268d62723f576784077750ca/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/03b8d4b8268d62723f576784077750ca/AndroidManifest.xml:31:17-139
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:19.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9bb97cb91efd811d51ce1c22a6e4311c/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9bb97cb91efd811d51ce1c22a6e4311c/AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:19.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9bb97cb91efd811d51ce1c22a6e4311c/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:19.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9bb97cb91efd811d51ce1c22a6e4311c/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9bb97cb91efd811d51ce1c22a6e4311c/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:19.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9bb97cb91efd811d51ce1c22a6e4311c/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:19.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9bb97cb91efd811d51ce1c22a6e4311c/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:19.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9bb97cb91efd811d51ce1c22a6e4311c/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9bb97cb91efd811d51ce1c22a6e4311c/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:19.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9bb97cb91efd811d51ce1c22a6e4311c/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:19.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9bb97cb91efd811d51ce1c22a6e4311c/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.1] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/9bb97cb91efd811d51ce1c22a6e4311c/AndroidManifest.xml:42:25-78
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/a7f5b0637c86607a569b124d6d9504c0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/72358e955227ef467f1ec0f306215cdf/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/72358e955227ef467f1ec0f306215cdf/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/b1bcec94cd848adb6c4f804655d466d8/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/b1bcec94cd848adb6c4f804655d466d8/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/a7f5b0637c86607a569b124d6d9504c0/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/a7f5b0637c86607a569b124d6d9504c0/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/a7f5b0637c86607a569b124d6d9504c0/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/a7f5b0637c86607a569b124d6d9504c0/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/a7f5b0637c86607a569b124d6d9504c0/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/a7f5b0637c86607a569b124d6d9504c0/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/72358e955227ef467f1ec0f306215cdf/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/72358e955227ef467f1ec0f306215cdf/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/b1bcec94cd848adb6c4f804655d466d8/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/b1bcec94cd848adb6c4f804655d466d8/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/a7f5b0637c86607a569b124d6d9504c0/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/a7f5b0637c86607a569b124d6d9504c0/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/a7f5b0637c86607a569b124d6d9504c0/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/a7f5b0637c86607a569b124d6d9504c0/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/a7f5b0637c86607a569b124d6d9504c0/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/a7f5b0637c86607a569b124d6d9504c0/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/a7f5b0637c86607a569b124d6d9504c0/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/a7f5b0637c86607a569b124d6d9504c0/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/a7f5b0637c86607a569b124d6d9504c0/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/a7f5b0637c86607a569b124d6d9504c0/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/a7f5b0637c86607a569b124d6d9504c0/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/a7f5b0637c86607a569b124d6d9504c0/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/a7f5b0637c86607a569b124d6d9504c0/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/a7f5b0637c86607a569b124d6d9504c0/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/a7f5b0637c86607a569b124d6d9504c0/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/a7f5b0637c86607a569b124d6d9504c0/AndroidManifest.xml:49:13-87
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:18.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/704b6ba6d295ce3bcc3a1e4a543d6b43/AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:18.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/704b6ba6d295ce3bcc3a1e4a543d6b43/AndroidManifest.xml:14:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:18.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/704b6ba6d295ce3bcc3a1e4a543d6b43/AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:18.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/704b6ba6d295ce3bcc3a1e4a543d6b43/AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:18.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/704b6ba6d295ce3bcc3a1e4a543d6b43/AndroidManifest.xml:13:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/b514b2546679673df00ceba193864384/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/b514b2546679673df00ceba193864384/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/b514b2546679673df00ceba193864384/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/b514b2546679673df00ceba193864384/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/267a854a3ffe28d36bc39738a05dcf9a/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/267a854a3ffe28d36bc39738a05dcf9a/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/267a854a3ffe28d36bc39738a05dcf9a/AndroidManifest.xml:24:13-58
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.1.0-rc01] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/5e40911926f4af2a3b5269e58c044bfa/AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0-rc01] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/5e40911926f4af2a3b5269e58c044bfa/AndroidManifest.xml:25:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0-rc01] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/5e40911926f4af2a3b5269e58c044bfa/AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0-rc01] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/5e40911926f4af2a3b5269e58c044bfa/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0-rc01] /Users/joaooliveira/.gradle/caches/transforms-2/files-2.1/5e40911926f4af2a3b5269e58c044bfa/AndroidManifest.xml:24:13-79
